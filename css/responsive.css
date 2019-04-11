@@ -1,6 +1,14 @@
 @media (max-width: 767px){
+	.logo{
+		text-align: center;
+	}
+	.box-info-hearder{
+		text-align: center;
+	}
+	.phone-number{
+		border-right: 0px;
+	}
 	
-
 }
 @media (min-width: 768px) {
 	
