@@ -310,6 +310,9 @@ ul.navi .vk-menu__child{
 .box-service-home{
     margin-top: 60px;
 }
+.box-service-home img{
+    width: 100%;
+}
 .des-serive{
     margin-top: 30px;
     text-align: justify;
@@ -348,4 +351,89 @@ ul.navi .vk-menu__child{
 .list-news-home{
     width: 100%;
     float: left;
+}
+#carousel-id2 .left-news{
+    width: 60%;
+    float: left;
+}
+#carousel-id2 .left-news img{
+    width: 100%;
+    height: 227px;
+}
+#carousel-id2 .right-news{
+    width: 40%;
+    background: #147abd;
+    color: #fff;
+    float: left;
+    padding:20px;
+    height: 227px;
+}
+#carousel-id2 .name-news{
+    text-transform: uppercase;
+    font-size: 17px;
+}
+#carousel-id2 .name-news a{
+    color: #fff;
+}
+#carousel-id2 .carousel-indicators{
+    left: 90%;
+    bottom: 0px;
+}
+footer{
+    width:  100%;
+    float: left;
+    background: url('../images/bg_footer.png');
+    background-size: contain;
+    margin-top: 30px;
+}
+footer .row{
+    margin-top: 30px;
+    margin-bottom: 165px;
+}
+footer h3{
+    font-size: 23px;
+    text-transform: uppercase;
+    color: #585858;
+}
+footer p{
+    color: #585858;
+    font-size: 16px;
+}
+.social{
+    /*text-align: center;*/
+}
+.social a{
+    margin-right: 6px;
+    color: #585858;
+    
+    font-size: 18px;
+}
+.form-contact input{
+    width: 100%;
+    border-top:none;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 15px;
+}
+.form-contact textarea{
+    width: 100%;
+    border-top:none;
+    border-left: none;
+    border-right: none;
+}
+.btn-submit{
+    text-align: center;
+}
+.btn-submit button{
+    width: 78px;
+    border:2px solid #585858;
+    background: #fff;
+    height: 25px;
+}
+.bottom-footer{
+    width: 100%;
+    float: left;
+    background: #147abd;
+    padding-top: 10px;
+    text-align: center;
 }

@@ -12,7 +12,7 @@ $(document).ready(function($){
 			responsiveClass:true, 				
 		    responsive:{
 		        0:{
-		            items:1,									            									            
+		            items:2,									            									            
 		        },
 		        600:{
 		            items:4,          
@@ -22,8 +22,8 @@ $(document).ready(function($){
 		        }
 		    }
 		});
-	var owl = $(".owl-carousel-news");
-	  	owl.owlCarousel({
+	var owl2 = $(".owl-carousel-event");
+	  	owl2.owlCarousel({
 	  		margin:0, 							
 	  		loop:true, 							
 	  		nav:true, 							
