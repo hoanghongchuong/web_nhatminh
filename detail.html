@@ -18,7 +18,7 @@
     <script src="js/jquery-2.1.4.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/owl.carousel.min.js"></script> 
-    <!-- <script src="mmenu/jquery.mmenu.all.min.js" defer ></script> -->
+    
     <script src="js/slick.min.js"></script>
     <script src="js/jquery.fancybox.min.js"></script>
     <script src="js/script.js"></script>
@@ -27,35 +27,24 @@
 <body>
     <header id="header" class="">
         <div class="container">
-            <div class="row">
-                <div class="top_header">
-                    <div class="col-md-3 col-xs-12">
-                        <a href="" title=""><img src="images/logo.png" class="logo-img" alt=""></a>
-                    </div>
-                    <div class="col-md-9 col-xs-12">
-                        <p class="company_name">công ty nội thất furniture</p>
-                        <div class="box-item-header col-xs-12 col-md-4">
-                            <div class="col-md-2 col-xs-2"><img src="images/ad.png" alt=""></div>
-                            <div class="col-md-10 col-xs-10">
-                                Tầng 5, số 18 Miếu Trì, Nam Từ Liêm, Hà Nội
-                            </div>
+            <div class="row">                
+                <div class="col-md-5 col-xs-12 logo">
+                    <a href="" title=""><img src="images/logo.jpg" class="logo-img" alt=""></a>
+                </div>
+                <div class="col-md-7 col-xs-12">
+                    <div class="box-info-hearder">
+                        <div class="phone-number">
+                            <i class="fa fa-phone"></i>
+                            <span>Hotline</span>
+                            <p>0123654789</p>
                         </div>
-                        <div class="box-item-header col-xs-12 col-md-4">
-                            <div class="col-md-2 col-xs-2"><img src="images/time.png" alt=""></div>
-                            <div class="col-md-10 col-xs-10">
-                                8h - 17h30 <br>
-                                Hỗ trợ 24/7
-                            </div>
-                        </div>
-                        <div class="box-item-header col-xs-12 col-md-4">
-                            <div class="col-md-2 col-xs-2"><img src="images/phone.png" alt=""></div>
-                            <div class="col-md-10 col-xs-10">
-                                0987654321<br>
-                                0987654321
-                            </div>
-                        </div>
+                        <form id="main-search" method="post" action="/search">
+                            <input type="text" name="key" placeholder="Tìm kiếm...">
+                            <button><i class="fa fa-search"></i></button>
+                        </form>
                     </div>
                 </div>
+                
             </div>
             
         </div>
@@ -65,19 +54,12 @@
             <ul class="navi">
                 <li class="active"><a href="">Trang chủ</a></li>
                 <li>
-                    <a href="#">
-                        Thiết kế
-                        <i class="fa fa-chevron-down"></i>
-                    </a>
-                    <ul class="vk-menu__child">                                
-                        <li><a href="#">Thiết kế 1</a></li>
-                        <li><a href="#">Thiết kế 1</a></li>
-                        <li><a href="#">Thiết kế 1</a></li>                        
-                    </ul>
+                    <a href="#">Giới thiệu</a>
+                    
                 </li>
                 <li>
-                    <a href="#">Ảnh công trình
-                        <i class="fa fa-chevron-down"></i>
+                    <a href="#">Sản phẩm
+                        <!-- <i class="fa fa-chevron-down"></i> -->
                     </a>
                     <ul class="vk-menu__child">
                         <li><a href="">Công trình 1</a></li>
@@ -86,15 +68,51 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="#">Đồ decor</a>                    
+                    <a href="#">Dịch vụ</a> 
+                    <ul class="vk-menu__child">
+                        <li>
+                            <a href="">Dịch vụ 1</a>
+                            <ul class="vk-menu__child">
+                                <li><a href="" title="">Dịch vụ 1.1</a></li>
+                                <li><a href="" title="">Dịch vụ 1.2</a></li>
+                                <li><a href="" title="">Dịch vụ 1.3</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="">Dịch vụ 2</a>
+                            <ul class="vk-menu__child">
+                                <li><a href="" title="">Dịch vụ 2.1</a></li>
+                                <li><a href="" title="">Dịch vụ 2.2</a></li>
+                                <li><a href="" title="">Dịch vụ 2.3</a></li>
+                            </ul>
+                        </li>
+                         <li>
+                            <a href="">Dịch vụ 3</a>
+                            <ul class="vk-menu__child">
+                                <li><a href="" title="">Dịch vụ 3.1</a></li>
+                                <li><a href="" title="">Dịch vụ 3.2</a></li>
+                                <li><a href="" title="">Dịch vụ 3.3</a></li>
+                            </ul>
+                        </li>
+                         <li>
+                            <a href="">Dịch vụ 4</a>
+                            <ul class="vk-menu__child">
+                                <li><a href="" title="">Dịch vụ 4.1</a></li>
+                                <li><a href="" title="">Dịch vụ 4.2</a></li>
+                                <li><a href="" title="">Dịch vụ 4.3</a></li>
+                            </ul>
+                        </li>
+                                            
+                    </ul>                           
                 </li>
                 
-                <li><a href="#" title="">Tin tức</a></li>
+                <li><a href="#" title="">Dự án</a></li>
+                <li><a href="#" title="">Tuyển dụng</a></li>
                 <li><a href="#" title="">Liên hệ</a></li>
             </ul> 
         </div>           
     </div>
-    <div class="visible-xs visible-sm">
+    <div class="visible-xs visible-sm menu-mobile">
         <div class="vk-header__search">
             <div class="container">
                 
@@ -104,8 +122,9 @@
         <nav class="vk-header__menu-mobile">
             <ul class="vk-menu__mobile collapse" id="menuMobile">
                 <li><a href="#">Trang chủ</a></li>
+                <li><a href="#">Giới thiệu</a></li>
                 <li>
-                    <a href="#">Thiết kế</a>
+                    <a href="#">Sản phẩm</a>
                     <a href="#menu2" data-toggle="collapse" class="_arrow-mobile"><i class="_icon fa fa-angle-down"></i></a>
                     <ul class="collapse" id="menu2">
                         <li><a href="#">Công trình 1</a></li>
@@ -117,86 +136,86 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="#">Ảnh công trình</a>
+                    <a href="#">Dịch vụ</a>
                     <a href="#menu1" data-toggle="collapse" class="_arrow-mobile"><i class="_icon fa fa-angle-down"></i></a>
-                    <ul class="collapse" id="menu1">
-                        <li><a href="#">Công trình 1</a></li>
-                        <li><a href="#">Công trình 1</a></li>
-                        <li><a href="#">Công trình 1</a></li>
-                        <li><a href="#">Công trình 1</a></li>
-                        <li><a href="#">Công trình 1</a></li>
+                    <ul class="collapse sub-menu-mobile" id="menu1">
+                        <li>
+                            <a href="#">Dịch vụ 1</a>
+                            <a href="#menu1_1" data-toggle="collapse" class="_arrow-mobile">
+                                <i class="_icon fa fa-angle-down"></i>
+                            </a>
+                            <ul class="collapse sub-menu-mobile" id="menu1_1">
+                                <li><a href="#">dịch vụ 1.1</a></li>
+                                <li><a href="#">dịch vụ 1.1</a></li>
+                                <li><a href="#">dịch vụ 1.1</a></li>
+                                <li><a href="#">dịch vụ 1.1</a></li>
+                                <li><a href="#">dịch vụ 1.1</a></li>
+                                
+                            </ul>
+                        </li>
+                        <li><a href="#">Dịch vụ 2</a></li>
+                        <li><a href="#">Dịch vụ 3</a></li>
+                        <li><a href="#">Dịch vụ 4</a></li>
+                        <li><a href="#">Dịch vụ 5</a></li>
                         
                     </ul>
                 </li>
                 <li><a href="#">Dự án</a></li>
-                <li><a href="#">Decor</a></li>
+                <li><a href="#">Tuyển dụng</a></li>
                 <li><a href="#">Liên hệ</a></li>
             </ul>
         </nav>
         
     </div>
-    <div class="content-home-cate">
+    <div class="content-home-cate box-contact-home">
         <div class="container">
             <div class="row">
-                <div class="col-xs-12 col-md-3">
-                    <div class="crumb">
-                        <a href="">Trang chủ | </a><a href="">Thiết kế chung cư | </a> <a href="" title="">Thiết kế nội thất</a>
-                    </div>
-                    <div class="name_detail">THIẾT KẾ CĂN HỘ CHUNG CƯ NGOẠI GIAO ĐOÀN – ANH HUY</div>
-                    <div class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-                </div>
-                <div class="col-xs-12 col-md-9">
-                    <div class="content_detail">
-                        Căn hộ chung cư với mặt bằng rộng tại chung cư Ngoại Giao Đoàn được thiết kế sử dụng gỗ công nghiệp hiện đại với tông màu tối – Trắng mạnh mẽ, các chi tiết thể hiện sở thích và cá tính độc đáo của gia chủ
-
-Dưới đây là thiết kế của căn hộ chung cư Ngoại Giao Đoàn nhà anh Huy, cùng Hope Home tham khảo để có thêm ý tưởng cho căn hộ của mình nhé…
-
-
-Phòng khách được thiết kế tỉ mỉ đảm bảo tính thẩm mỹ, sang trọng và đúng với phong thủy của căn hộ
-
-Phòng khách thiết kế hiện đại và sang trọng
-
-Khu bếp được thiết kế rộng rãi, không quá nhiều chi tiết giúp người nội trợ dễ dàng di chuyển
-                    </div>
-                </div>
+                
             </div>
         </div>
     </div>
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-md-9">
-                    <div class="col-md-6">
-                        <a href=""><img src="images/logo.png" alt=""></a>
-                        <p style="margin-top: 10px; color: #fff">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat.</p>
+                <div class="col-md-4">
+                    <div class="logo-footer">
+                        <a href="images/logo.jpg" title=""></a>
                     </div>
-                    <div class="col-md-6">
-                        <p class="title_footer">Công ty nội thất Furniture</p>
-                        <p class="p-footer">Địa chỉ: 2909-ct3, Gelexia riverside - Hoàng Mai - Hà Nội</p>
-                        <p class="p-footer">Phone: 0987654321</p>
-                        <p class="p-footer">Email: abc@gmail.com</p>
-                        <p class="p-footer">Website: abc.com.vn</p>
-                    </div>
-                    <div class="col-md-12">
-                        <img src="images/map.png" style="width: 100%;height: 120px;" alt="">
+                    <h3>công ty tnhh xây dựng & thương mại nhật minh</h3>
+                    <p>Địa chỉ: tdp, Kim Tràng, p.Tiền Châu, TP.Phúc Yên, tỉnh Vĩnh Phúc.</p>
+                    <p>Thời gian: 8h30 - 18h30 kể cả thứ 7 và chủ nhật</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Thông tin liên hệ</h3>
+                    <p>Điện thoại: 013645789</p>
+                    <p>Hotline: 013645789</p>
+                    <p>Email: nhatminhsport@gmail.com</p>
+                    <p>website: nhatminhsport.com.vn</p>
+                    <p class="social">
+                        <a href="" title=""><i class="fa fa-facebook"></i></a>
+                        <a href="" title=""><i class="fa fa-youtube"></i></a>
+                        <a href="" title=""><i class="fa fa-instagram"></i></a>
+                        <a href="" title=""><i class="fa fa-twitter"></i></a>
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Điền thông tin để nhận tư vấn</h3>
+                    <div class="form-contact">
+                        <form action="" method="post" accept-charset="utf-8">
+                            <p><input type="text" class="" placeholder="Họ tên*"></p>
+                            <p><input type="text" class="" placeholder="Số điện thoại*"></p>
+                            <p><input type="email" class="" placeholder="Email*"></p>
+                            <p><textarea name="content" placeholder="Nội dung*"></textarea></p>
+                            <p class="btn-submit"><button type="submit">Gửi</button></p>
+                        </form>
                     </div>
                 </div>
-                <div class="col-md-3">
-                    <p class="title_footer">Fanpage</p>
-                    <img src="images/fanpage.png" alt="" class="img-responsive">
-                </div>
-                <p class="col-md-12" style="margin-top:20px;text-align: center; text-transform: uppercase; color: #fff">Copyright 2019 @ hope home. Thiết kế bởi hungthinhads</p>
             </div>
         </div>
     </footer>
+    <div class="bottom-footer">
+        <p>Designed by hungthinhads.com</p>
+    </div>
 </body>
 
 </html>
