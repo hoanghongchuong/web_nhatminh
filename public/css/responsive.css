@@ -1,0 +1,44 @@
+@media (max-width: 767px){
+	.logo{
+		text-align: center;
+	}
+	.box-info-hearder{
+		text-align: center;
+	}
+	.phone-number{
+		border-right: 0px;
+	}
+	footer{
+		background-size: cover;
+	}
+	.slider{
+		margin-top: 20px;
+	}
+	.mt-20-mobile{
+		margin-top: 20px;
+	}
+	.list-item-product img{
+		height: 140px;
+	}
+	.name_product{
+		font-size: 17px;
+	}
+	
+	.logo-img{
+		width: 170px;
+	}
+}
+@media (min-width: 768px) {
+	
+}
+@media (min-width: 768px) and (max-width: 999px){
+	footer{
+		background-size: cover;
+	}
+}
+@media (min-width: 1000px) {
+	
+}
+@media (min-width: 1200px){
+	
+}
